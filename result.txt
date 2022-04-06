@@ -1,0 +1,265 @@
+[
+  {
+    "deleted": false,
+    "id": 81203443,
+    "key-value": [
+      {
+        "key": "Y2xhaW1lZA==",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludA==",
+        "value": {
+          "bytes": "ZmluaXNoZWQ=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9pZA==",
+        "value": {
+          "bytes": "OWV0SDUzQm8zbXJaQVBQSEQ=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9zZXRfaWQ=",
+        "value": {
+          "bytes": "OVhxZzRja2FpZEN1YkY5dUc=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludF90aHJlc2hvbGQ=",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 1
+        }
+      }
+    ],
+    "opted-in-at-round": 20672875,
+    "schema": {
+      "num-byte-slice": 3,
+      "num-uint": 3
+    }
+  },
+  {
+    "deleted": false,
+    "id": 81490727,
+    "key-value": [
+      {
+        "key": "ZnVsZmlsbHNfY29uc3RyYWludA==",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 1
+        }
+      },
+      {
+        "key": "Y2xhaW1lZA==",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludA==",
+        "value": {
+          "bytes": "ZmluaXNoZWQ=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9pZA==",
+        "value": {
+          "bytes": "R3V0SkhXZ0ZvcjVram1Sd3A=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9zZXRfaWQ=",
+        "value": {
+          "bytes": "UWdjd2ZnUXd5Mm5TUWdYcVk=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludF90aHJlc2hvbGQ=",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 1
+        }
+      }
+    ],
+    "opted-in-at-round": 20708275,
+    "schema": {
+      "num-byte-slice": 3,
+      "num-uint": 3
+    }
+  },
+  {
+    "deleted": false,
+    "id": 80032949,
+    "key-value": [
+      {
+        "key": "Y29uc3RyYWludF90aHJlc2hvbGQ=",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 1
+        }
+      },
+      {
+        "key": "Y2xhaW1lZA==",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludA==",
+        "value": {
+          "bytes": "ZmluaXNoZWQ=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9pZA==",
+        "value": {
+          "bytes": "MTIzNA==",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9zZXRfaWQ=",
+        "value": {
+          "bytes": "MzIx",
+          "type": 1,
+          "uint": 0
+        }
+      }
+    ],
+    "opted-in-at-round": 20549549,
+    "schema": {
+      "num-byte-slice": 3,
+      "num-uint": 2
+    }
+  },
+  {
+    "deleted": false,
+    "id": 80002850,
+    "key-value": [
+      {
+        "key": "Y2xhaW1lZA==",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludA==",
+        "value": {
+          "bytes": "ZmluaXNoZWQ=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9pZA==",
+        "value": {
+          "bytes": "MTIzNA==",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9zZXRfaWQ=",
+        "value": {
+          "bytes": "MzIx",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludF90aHJlc2hvbGQ=",
+        "value": {
+          "bytes": "AAAAAAAAAAE=",
+          "type": 1,
+          "uint": 0
+        }
+      }
+    ],
+    "opted-in-at-round": 20543313,
+    "schema": {
+      "num-byte-slice": 4,
+      "num-uint": 2
+    }
+  },
+  {
+    "deleted": false,
+    "id": 80810075,
+    "key-value": [
+      {
+        "key": "Y29uc3RyYWludA==",
+        "value": {
+          "bytes": "ZmluaXNoZWQ=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9pZA==",
+        "value": {
+          "bytes": "UUhBV1dnV3ZQRnFoeGU2Zzc=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "ZXZhbHVhdGlvbl9zZXRfaWQ=",
+        "value": {
+          "bytes": "V3hFUDZuUXhRR05RY2JQc1o=",
+          "type": 1,
+          "uint": 0
+        }
+      },
+      {
+        "key": "Y29uc3RyYWludF90aHJlc2hvbGQ=",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 1
+        }
+      },
+      {
+        "key": "Y2xhaW1lZA==",
+        "value": {
+          "bytes": "",
+          "type": 2,
+          "uint": 0
+        }
+      }
+    ],
+    "opted-in-at-round": 20656420,
+    "schema": {
+      "num-byte-slice": 3,
+      "num-uint": 2
+    }
+  }
+]
