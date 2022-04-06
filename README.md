@@ -9,10 +9,17 @@ install Algorand SDK with
 ```
 pip3 install py-algorand-sdk
 ```
+
 or use the provided requirements.txt
 
-configure the required parameters in the config section and execute with 
+```
+pip3 install -r requirements.txt
+```
+
+open config.py and configure the required parameters in the config section
+
+execute with 
 
 ```
-python3 app.py
+python3 clearapp.py
 ```
