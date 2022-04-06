@@ -1,6 +1,6 @@
 # clearapp
 
-Simple python script to remove unwanted applications from an algorand account and free up locked ALGO in the minimum balance
+Simple python script to remove unwanted applications from an algorand account and free up locked ALGO from the minimum balance
 
 You will need to register a (free) key at https://developer.purestake.io/
 
