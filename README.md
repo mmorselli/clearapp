@@ -4,13 +4,7 @@ Simple python script to remove unwanted applications from an algorand account an
 
 You will need to register a (free) key at https://developer.purestake.io/
 
-install Algorand SDK with 
-
-```
-pip3 install py-algorand-sdk
-```
-
-or use the provided requirements.txt
+install dependencies using the provided requirements.txt
 
 ```
 pip3 install -r requirements.txt

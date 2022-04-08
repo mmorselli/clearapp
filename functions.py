@@ -1,5 +1,21 @@
-from config import INDEXER_CLIENT,ALGOD_CLIENT,ACCOUNT_PRIVATE_KEY
+import requests
+from config import INDEXER_CLIENT,ALGOD_CLIENT,ACCOUNT_PRIVATE_KEY, NETWORK
 from algosdk import future
+
+
+
+################################################
+def get_min_balance(account_public_key):
+    
+    if NETWORK == 'testnet':
+        response = requests.get("https://indexer.testnet.algoexplorerapi.io/v2/accounts/"+account_public_key)
+    else:
+        response = requests.get("https://indexer.algoexplorerapi.io/v2/accounts/"+account_public_key)
+    
+    min_balance = response.json()['account']['min-balance']
+    return min_balance
+
+
 
 ################################################
 def app_clear_state(account_public_key,appid):
@@ -43,9 +59,10 @@ def get_apps_list(account_public_key):
 ################################################
 def app_menu(account_public_key):
 
-    
+    min_balance = get_min_balance(account_public_key)
 
     print(f"\n{account_public_key} applications\n")
+    print(f"\nmin balance: {min_balance/1000000} ALGO\n")
 
     choice=True
     while choice:

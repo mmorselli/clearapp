@@ -12,6 +12,10 @@ MNEMONIC_PHRASE = "" # 25 word PK, without comma
 # end config
 ##################################################################
 
+if not API_KEY or not MNEMONIC_PHRASE:
+    print("\nPlease open config.py and fill the config section\n")
+    quit()
+
 ALGOD_ADDRESS = 'https://'+NETWORK+'-algorand.api.purestake.io/ps2' # algod client: select testnet or mainnet
 INDEXER_ADDRESS = 'https://'+NETWORK+'-algorand.api.purestake.io/idx2' # indexer client: select testnet or mainnet
 
