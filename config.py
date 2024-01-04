@@ -6,23 +6,21 @@ from algosdk import mnemonic
 # config
 
 NETWORK = 'testnet' # select testnet o mainnet
-API_KEY = "" # purestake (free) key
-MNEMONIC_PHRASE = "" # 25 word PK, without comma
+MNEMONIC_PHRASE = "" # 25 word PK, without comma - if the account is rekeyed the mnemonic must be that of the rekeyed account
+ACCOUNT_PUBLIC_KEY = ""
 
 # end config
 ##################################################################
 
-if not API_KEY or not MNEMONIC_PHRASE:
+if not MNEMONIC_PHRASE:
     print("\nPlease open config.py and fill the config section\n")
     quit()
 
-ALGOD_ADDRESS = 'https://'+NETWORK+'-algorand.api.purestake.io/ps2' # algod client: select testnet or mainnet
-INDEXER_ADDRESS = 'https://'+NETWORK+'-algorand.api.purestake.io/idx2' # indexer client: select testnet or mainnet
+ALGOD_ADDRESS = 'https://'+NETWORK+'-api.algonode.cloud'
+INDEXER_ADDRESS = 'https://'+NETWORK+'-idx.algonode.cloud'
 
-ALGOD_TOKEN = API_KEY
-HEADERS = {"X-API-Key": API_KEY}
-ALGOD_CLIENT = algod.AlgodClient(ALGOD_TOKEN,ALGOD_ADDRESS,HEADERS)
-INDEXER_CLIENT = indexer.IndexerClient(ALGOD_TOKEN, INDEXER_ADDRESS, HEADERS)
+ALGOD_TOKEN = ""
+ALGOD_CLIENT = algod.AlgodClient(ALGOD_TOKEN,ALGOD_ADDRESS)
+INDEXER_CLIENT = indexer.IndexerClient(ALGOD_TOKEN, INDEXER_ADDRESS)
 
 ACCOUNT_PRIVATE_KEY = mnemonic.to_private_key(MNEMONIC_PHRASE)
-ACCOUNT_PUBLIC_KEY = mnemonic.to_public_key(MNEMONIC_PHRASE)

@@ -59,10 +59,6 @@ def get_apps_list(account_public_key):
 ################################################
 def app_menu(account_public_key):
 
-    min_balance = get_min_balance(account_public_key)
-
-    print(f"\n{account_public_key} applications\n")
-    print(f"\nmin balance: {min_balance/1000000} ALGO\n")
 
     choice=True
     while choice:
